@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MystreaM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>MystreaM</h1>
+        </header>
+
+        <div id="search-section">
+            <input type="text" id="song-search" placeholder="Search for a song...">
+            <button onclick="searchSong()">Search</button>
+        </div>
+
+        <div id="song-info">
+            <h2 id="song-title"></h2>
+            <p id="song-artist"></p>
+            <audio id="audio-player" controls>
+                <source id="audio-source" src="" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+            <div id="lyrics-display"></div>
+            <div id="song-emotion"></div>
+        </div>
+
+        <div id="visualizer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
