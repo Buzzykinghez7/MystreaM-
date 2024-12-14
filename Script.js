@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY"; // Add your API key for Genius or any lyrics service
+const apiKey = -o3r8CuSbIrHALER5RswW8N7PU5mRvQjvRTBlIRp3e_YwN4aFMnCfPWwZr7HHF8A // Add your API key for Genius or any lyrics service
 
 function searchSong() {
     const query = document.getElementById("song-search").value;
